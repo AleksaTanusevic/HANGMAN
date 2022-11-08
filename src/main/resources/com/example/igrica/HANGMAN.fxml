@@ -29,17 +29,17 @@
             <Font name="Agency FB Bold" size="17.0" />
          </font>
       </Button>
-      <Button layoutX="381.0" layoutY="170.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: white;" text="SAVE">
+      <Button layoutX="381.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: white;" text="SAVE">
          <font>
             <Font name="Agency FB Bold" size="17.0" />
          </font>
       </Button>
-      <Button layoutX="381.0" layoutY="219.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: white;" text="LOAD">
+      <Button layoutX="381.0" layoutY="216.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: white;" text="LOAD">
          <font>
             <Font name="Agency FB Bold" size="17.0" />
          </font>
       </Button>
-      <Button layoutX="381.0" layoutY="262.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: white;" text="BAZA">
+      <Button layoutX="381.0" layoutY="264.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: white;" text="BAZA">
          <font>
             <Font name="Agency FB Bold" size="17.0" />
          </font>
