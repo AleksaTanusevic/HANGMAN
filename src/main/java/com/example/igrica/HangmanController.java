@@ -29,7 +29,7 @@ public class HangmanController {
     }
     @FXML
     public void clickonplayer(ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("scene2view.fxml"));
+        root = FXMLLoader.load(getClass().getResource("scenePlayer.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

@@ -21,6 +21,7 @@ public class HangmanMain extends Application {
         stage.setResizable(false);
         Image icon = new Image("icon.png");
         stage.getIcons().add(icon);
+        BazaProxy.ucitajReci();
     }
 
     public static void main(String[] args) {
