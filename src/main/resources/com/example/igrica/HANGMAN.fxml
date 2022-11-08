@@ -7,10 +7,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('D:\Aleksa Tanusevic\igrica\igrica\src\main\resources\pozadina.jpg');" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<Pane fx:controller="com.example.igrica.HangmanController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('D:\Aleksa Tanusevic\igrica\igrica\src\main\resources\pozadina.jpg');" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="406.0" fitWidth="607.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="420.0" fitWidth="607.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../pozadina.jpg" />
          </image>
@@ -20,7 +19,7 @@
             <Font name="Agency FB Bold" size="36.0" />
          </font>
       </Label>
-      <Button layoutX="381.0" layoutY="72.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: white;" text="NEW GAME">
+      <Button layoutX="381.0" layoutY="72.0" mnemonicParsing="false" onAction="#NewGameStart" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: white;" text="NEW GAME">
          <font>
             <Font name="Agency FB Bold" size="17.0" />
          </font>
