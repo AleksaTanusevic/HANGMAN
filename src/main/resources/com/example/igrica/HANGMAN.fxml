@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:controller="com.example.igrica.HangmanController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('D:\Aleksa Tanusevic\igrica\igrica\src\main\resources\pozadina.jpg');" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-image: url('D:\Aleksa Tanusevic\igrica\igrica\src\main\resources\pozadina.jpg');" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.igrica.HangmanController">
    <children>
       <ImageView fitHeight="420.0" fitWidth="607.0" pickOnBounds="true" preserveRatio="true">
          <image>

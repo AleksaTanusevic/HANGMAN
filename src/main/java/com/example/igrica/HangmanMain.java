@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.scene.image.Image;
 
 import java.io.IOException;
 
@@ -18,6 +19,8 @@ public class HangmanMain extends Application {
         stage.setScene(scene);
         stage.show();
         stage.setResizable(false);
+        Image icon = new Image("icon.png");
+        stage.getIcons().add(icon);
     }
 
     public static void main(String[] args) {
